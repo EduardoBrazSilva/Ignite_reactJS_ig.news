@@ -1,5 +1,12 @@
+import styles from './styles.module.scss';
+
 export function SubscribeButton() {
     return (
-        <h1></h1>
+        <button
+            type="button"
+            className={styles.subscribeButton}
+        >
+            Subscribe now
+        </button>
     )
 }
